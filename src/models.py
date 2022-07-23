@@ -22,6 +22,7 @@ class Planets(Base):
     surface_water = Column(String(250))
     language = Column(String(250))
 
+
     def to_dict(self):
         return{}
 
